@@ -21,7 +21,7 @@ To analyze changes in the text, a simple tokenization was applied to each state 
 
 Each action is appended with an extra info (either a number or a string), except for the *Stop* symbol, which is always followed by *None*. The actions available for each job are the following:
 ##### Actions that change the current state of the translation
-.
+
 | Action Symbol | Action       | Appended Info       |
 |---------------|--------------|---------------------|
 | R             | Replace      | new token           |
@@ -31,7 +31,7 @@ Each action is appended with an extra info (either a number or a string), except
 | BD            | Delete Block | old block of tokens |
 
 ##### Actions that don't change the current state of the translation
-.
+
 | Action Symbol | Action            | Appended Info             |
 |---------------|-------------------|---------------------------|
 | W             | Wait              | seconds                   |
@@ -51,10 +51,11 @@ The 50 most common strings appearing as action info (which can be either tokens 
 
 
 If you use this dataset, please cite the following:
-
+```
 @article{gois2019translator2vec,
   title={Translator2Vec: Understanding and Representing Human Post-Editors},
   author={G\'ois, Ant\'onio and F. T. Martins, Andr\'e},
   year={2019},
   publisher={European Association for Machine Translation}
 }
+```
