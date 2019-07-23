@@ -1,5 +1,19 @@
 # Anonymized Keystrokes Dataset
 
+Dataset available [here](https://github.com/Unbabel/translator2vec/releases/download/v1.0/keystrokes_dataset.zip).
+
+Paper available [here](https://www.unbabel.com). #TODO upload pdf
+
+If you use this dataset, please cite the following:
+```
+@article{gois2019translator2vec,
+  title={Translator2Vec: Understanding and Representing Human Post-Editors},
+  author={G\'ois, Ant\'onio and F. T. Martins, Andr\'e},
+  year={2019},
+  publisher={European Association for Machine Translation}
+}
+```
+
 This is the repository of the anonymized keystrokes dataset, released together with the Translator2Vec paper. Two language pairs are available, En-Fr and En-De. Each sample (available in the .seqs files) consists of a *post-editing* job, where one editor corrects the output of a machine translation to improve its quality. The label of each sample is the *id* of the editor, available on the .labels files. Each sample itself is composed of a sequence of actions that the editor took to correct the translation. The time taken to do each job is also provided, in the .time files.
 
 9 files are available per language pair:
@@ -49,13 +63,3 @@ Each action is separated from other actions by a tab. Note that all occurrences 
 
 The 50 most common strings appearing as action info (which can be either tokens or blocks of tokens) were kept. All the others were UNKed. To anonymize the dataset, each kept string was converted to <Token_XX>, and each editor id was converted to an index.
 
-
-If you use this dataset, please cite the following:
-```
-@article{gois2019translator2vec,
-  title={Translator2Vec: Understanding and Representing Human Post-Editors},
-  author={G\'ois, Ant\'onio and F. T. Martins, Andr\'e},
-  year={2019},
-  publisher={European Association for Machine Translation}
-}
-```
