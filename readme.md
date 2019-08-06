@@ -2,7 +2,7 @@
 
 Dataset available [here](https://github.com/Unbabel/translator2vec/releases/download/v1.0/keystrokes_dataset.zip).
 
-Paper available [here](https://www.unbabel.com). #TODO upload pdf
+Paper available [here](https://arxiv.org/pdf/1907.10362.pdf).
 
 If you use this dataset, please cite the following:
 ```
