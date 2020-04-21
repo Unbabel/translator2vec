@@ -6,11 +6,17 @@ Paper available [here](https://arxiv.org/pdf/1907.10362.pdf).
 
 If you use this dataset, please cite the following:
 ```
-@article{gois2019translator2vec,
-  title={Translator2Vec: Understanding and Representing Human Post-Editors},
-  author={G\'ois, Ant\'onio and F. T. Martins, Andr\'e},
-  year={2019},
-  publisher={European Association for Machine Translation}
+@inproceedings{gois-martins-2019-translator2vec,
+    title = "{T}ranslator2{V}ec: Understanding and Representing Human Post-Editors",
+    author = "G{\'o}is, Ant{\'o}nio  and
+      Martins, Andr{\'e} F. T.",
+    booktitle = "Proceedings of Machine Translation Summit XVII Volume 1: Research Track",
+    month = aug,
+    year = "2019",
+    address = "Dublin, Ireland",
+    publisher = "European Association for Machine Translation",
+    url = "https://www.aclweb.org/anthology/W19-6605",
+    pages = "43--54",
 }
 ```
 
